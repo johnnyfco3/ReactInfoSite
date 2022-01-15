@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 60px;
+}
+.nav-items {
+  list-style: none;
+}
+.nav-items > li {
+  padding: 10px;
+}
