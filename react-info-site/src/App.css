@@ -1,38 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  background-color: rgb(44, 39, 39);
+  height: 100vh;
+  font-family: "Inter", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(10, 10, 10);
+}
+.navbar .image {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navbar h1 {
+  color: rgb(136, 218, 250);
+  font-size: 700;
+  font-size: 22px;
+}
+.navbar h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.navbar nav img {
+  width: 90px;
+}
+.navbar .nav-items > li {
+  padding: 10px;
+}
+.main-content h1 {
+  padding: 0 30px;
+  color: white;
+  font-size: 50px;
+}
+.main-content ul {
+  padding: 20px 80px;
+  font-size: 23px;
+  line-height: 2;
+  font-weight: 400;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main-content ul li {
+  max-width: 450px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-content > ul li::marker {
+  font-size: 2rem;
+  color: rgb(107, 202, 240);
+}
+footer {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
 }
